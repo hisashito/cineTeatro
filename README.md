@@ -13,3 +13,22 @@ Cinema:
 6 S S S S S S S S
 7 S S S S S S S S
 ```
+## etapa 2
+
+Calcular la ganancia generada por la venta de boletos en función del número de asientos disponibles.
+```
+Enter the number of rows:
+> 4
+Enter the number of seats in each row:
+> 5
+Total income:
+$200
+```
+```
+Enter the number of rows:
+> 8
+Enter the number of seats in each row:
+> 9
+Total income:
+$648
+```
