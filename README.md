@@ -32,3 +32,45 @@ Enter the number of seats in each row:
 Total income:
 $648
 ```
+## etapa 3
+
+Permite revisar el precio del asiento.
+```
+//after cinema "initialization"
+Enter a row number:
+> 3
+Enter a seat number in that row:
+> 6
+
+Ticket price: $10
+
+Cinema:
+  1 2 3 4 5 6 7 8
+1 S S S S S S S S
+2 S S S S S S S S
+3 S S S S S B S S
+4 S S S S S S S S
+5 S S S S S S S S
+6 S S S S S S S S
+7 S S S S S S S S
+```
+```
+//after cinema "initialization"
+Enter a row number:
+> 6
+Enter a seat number in that row:
+> 5
+
+Ticket price: $8
+
+Cinema:
+  1 2 3 4 5 6 7 8 9
+1 S S S S S S S S S
+2 S S S S S S S S S
+3 S S S S S S S S S
+4 S S S S S S S S S
+5 S S S S S S S S S
+6 S S S S B S S S S
+7 S S S S S S S S S
+8 S S S S S S S S S
+```
