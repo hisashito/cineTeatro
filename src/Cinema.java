@@ -1,3 +1,18 @@
+/**
+En esta etapa, se deben leer dos números enteros positivos: el número de filas y el número de asientos por fila. 
+
+El precio de los boletos se determina según las siguientes reglas:
+
+Si el total de asientos no supera 60, cada boleto cuesta 10 dólares.
+En salas más grandes, los boletos cuestan 10 dólares para la mitad frontal de las filas y 8 dólares para 
+la mitad trasera. 
+Si el número de filas es impar (por ejemplo, 9), la primera mitad incluye las primeras 4 filas y la segunda 
+mitad abarca las 5 filas restantes.
+Se debe calcular la ganancia por los boletos vendidos según el número de asientos y mostrar el resultado, 
+deteniendo luego el programa. 
+El número de filas y asientos no excederá 9.
+*/
+
 import java.util.Scanner;
 
 public class Cinema {
